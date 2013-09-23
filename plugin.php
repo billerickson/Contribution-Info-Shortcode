@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Contribution Info Shortcode
-Plugin URI: http://www.billerickson.net/
+Plugin URI: https://github.com/billerickson/Contribution-Info-Shortcode
 Description: Display information about plugins, tutorials, code snippets, and core contributions
 Version: 1.0
 Author: Bill Erickson
