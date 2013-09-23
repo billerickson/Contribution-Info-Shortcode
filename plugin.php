@@ -18,6 +18,12 @@ class BE_Contribution_Info {
 		add_shortcode( 'contribution-info', array( $this, 'contribution_info_shortcode' ) );
 	}
 	
+	/**
+	 * Contribution Info Shortcode
+	 *
+	 * @param array $atts
+	 * @return string $output
+	 */
 	function contribution_info_shortcode( $atts ) {
 		extract(shortcode_atts(array(
 			'display' => false,
@@ -40,6 +46,11 @@ class BE_Contribution_Info {
 	   	return $output;
 	}
 	
+	/**
+	 * Get Contribution Information
+	 *
+	 * Uses various APIs to gather info and stores in transient
+	 */
 	function get_contribution_info() {
 		$output = array();
 		
